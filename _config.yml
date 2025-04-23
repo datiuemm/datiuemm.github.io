@@ -67,6 +67,45 @@ content:
       - TOEIC (test in  Viettl High Tech) - <mark>715/990</mark>
       - Training Course on VLSI IC Design - Organized by ITI (Information Technology Institute), VNU (Vietnam National University), and NIC (National Innovation Center)
 
+  - title: Activities # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: EPU Skills Club – ESC
+        # link_text: boringcompany.com
+        sub_title: Event team member
+        caption: 2022 – 2023
+        description: | # this will include new lines to allow paragraphs
+            Participated in group activities and volunteer events
+
+      - layout: left
+        title: Scientific Writing
+        sub_title: Freelancer
+        caption: 2025 - Now
+        description: | # this will include new lines to allow paragraphs
+            - Research topic: Comparison of temperature control methods for furnaces – PID, neural networks, fuzzy logic, Fuzzy-PID using Matlab/Simulink (in editing)
+
+            - Research topic: Controllers for Doppler Radar using Matlab/Simulink (in editing)
+  
+  - title: Skills
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      - Languages: English (technical reading), Japanese (JLPT N3 equivalent)
+
+      - Programming: C, Assembly, VHDL, Python
+
+      - Tools: XAMPP, Django, SQL Server, LabVIEW, Proteus, Matlab, YOLOv8, PaddleOCR
+
+      - VLSI Design: Knowledge of CMOS, VLSI; Tools: xschem, yosys, klayout, OpenROAD; Designed and simulated logic circuits (NAND, NOR, 8-bit register), DRC, LVS, post-layout simulation
+
+      - Embedded Systems: Programming and interfacing with 8051, STM32, Arduino (Atmega328p), UART, LCD, ACS712 sensor, stepper motors
+
+      - PLC & SCADA: Programming PLCs (Siemens, Mitsubishi), HMI design (WinCC, EB8000), SCADA basics
+
+      - Image Processing & AI: OCR (PaddleOCR, Tesseract), trained YOLOv8 on Google Colab, worked with MobileNet, ResNet
+
+      - Office Tools: Microsoft Word, Excel
+
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -150,56 +189,6 @@ content:
 
           Technologies: Proteus, UART
 
-
-  - title: Skills # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        title: Skill 1
-        link: boringcompany.com
-        # link_text: boringcompany.com
-        sub_title: Senior Network System Administrator
-        caption: November 2017 - Present
-        quote: >
-          Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
-        description: | # this will include new lines to allow paragraphs
-            Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
-
-      - layout: left
-        title: Skill 2
-        link: boringcompany.com
-        # link_text: boringcompany.com
-        sub_title: Senior Network System Administrator
-        caption: November 2017 - Present
-        quote: >
-          Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
-        description: | # this will include new lines to allow paragraphs
-            Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
-
-  - title: Activities # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        title: Skill 1
-        link: boringcompany.com
-        # link_text: boringcompany.com
-        sub_title: Senior Network System Administrator
-        caption: November 2017 - Present
-        quote: >
-          Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
-        description: | # this will include new lines to allow paragraphs
-            Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
-
-      - layout: left
-        title: Skill 2
-        link: boringcompany.com
-        # link_text: boringcompany.com
-        sub_title: Senior Network System Administrator
-        caption: November 2017 - Present
-        quote: >
-          Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
-        description: | # this will include new lines to allow paragraphs
-            Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
 # Footer
 footer_show_references: true
 # references_title: References on request (Override references text)
