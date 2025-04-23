@@ -61,7 +61,8 @@ content:
   - title: Certificates
     layout: text
     content: | # this will include new lines to allow paragraphs
-      - JLPT N5
+      link: github.com/datiuemm
+      link_text: P10
       - JLPT N4
       - Japanese Language Proficiency (Equivalent to JLPT N3)
       - TOEIC (test in  Viettl High Tech) - <mark>715/990</mark>
