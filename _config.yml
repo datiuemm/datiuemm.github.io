@@ -54,9 +54,9 @@ content:
         quote: >
           Founded in Hanoi, Electric Power University (EPU) is a leading Vietnamese institution in energy and electrical engineering.
         description: | # this will include new lines to allow paragraphs
-          University Scholarship, Semester 6 of 9 – Good – GPA: 2.8
+          University Scholarship, Semester 6 of 9 – Good – GPA: <mark>2.8</mark>
 
-          University Scholarship, Semester 7 of 9 – Excellent – GPA: 3.71
+          University Scholarship, Semester 7 of 9 – Excellent – GPA: <mark>3.71</mark>
 
   - title: Certificates
     layout: text
@@ -76,7 +76,7 @@ content:
         sub_title: Event team member
         caption: 2022 – 2023
         description: | # this will include new lines to allow paragraphs
-            Participated in group activities and volunteer events
+            - Participated in group activities and volunteer events
 
       - layout: left
         title: Scientific Writing
@@ -189,8 +189,26 @@ content:
 
           Technologies: Proteus, UART
 
+  - title: Interests
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      - Billiards
+
+      - Badminton
+
+      - Blood Donation
+
+      - Traveling
+
+  - title: Additional Information
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      - Currently studying for <mark>JLPT N2</mark>
+
+      - To avoid disclosing sensitive information (phone number, profile photo, etc.), for more details, please contact via email.
+
 # Footer
-footer_show_references: true
+footer_show_references: false
 # references_title: References on request (Override references text)
 
 # Build settings
