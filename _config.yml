@@ -205,8 +205,9 @@ content:
     content: | # this will include new lines to allow paragraphs
       - Currently studying for <mark>JLPT N2</mark>
 
-      - To avoid disclosing sensitive information (phone number, profile photo, etc.), for more details, please contact via email.
+      - To avoid disclosing sensitive information (phone number, profile photo, etc.), for more details, please contact via email
 
+      - I'm planning to study Chinese in the future, after completing my Japanese and English certifications
 # Footer
 footer_show_references: false
 # references_title: References on request (Override references text)
