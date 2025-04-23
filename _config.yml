@@ -6,34 +6,27 @@ favicon: images/favicon.ico
 version: 2
 
 # Personal info
-name: Brett Harris
-title: Senior Network System Administrator
-email: brett.h@email.co.uk
-website: www.github.com/sproogen/resume-theme
+name: Dinh Trong Dat
+title: Control and Automation Engineering Engineer
+email: dinhtrongdat31gmail.com
 
 # Dark Mode (true/false/never)
 darkmode: false
 
 # Social links
-twitter_username: facespics
-github_username:  sproogen
+github_username:  datiuemm
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
 # facebook_username: jekyll
 # flickr_username: jekyll
-instagram_username: jameswgrant
-linkedin_username: jameswgrant
+
 # xing_username: jekyll
 # pinterest_username: jekyll
-youtube_username: globalmtb
 # googleplus_username: +jekyll
 # orcid_username: 0000-0000-0000-0000
 
 # Additional icon links
-additional_links:
-- title: itsgoingto.be
-  icon: fas fa-globe
-  url: https://www.itsgoingto.be
+
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
@@ -48,9 +41,7 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Brett and I'm a senior network system administrator. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
-
-  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
+  Hi, my name's Dât and I am a fourth-year student majoring in Control and Automation Engineering. With a strong passion for automation and a constant eagerness to learn, I am eager to work alongside experienced professionals in the field. During my years at university, I have gained foundational knowledge in various areas of automation, including <mark>PLCs</mark>, <mark>microcontrollers (MCUs)</mark>, <mark>artificial intelligence (AI)</mark>, and <mark>semiconductors</mark>. I am proficient in two foreign languages: <mark>Japanese</mark> and <mark>English</mark> , with a particular strength in reading and understanding technical documents in English. I have also participated in scientific research and contributed to academic publications. I am currently seeking a position that aligns with my background and passion.
 
 content:
   - title: Projects # Title for the section
