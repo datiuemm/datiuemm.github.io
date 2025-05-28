@@ -61,9 +61,17 @@ content:
     content: | # this will include new lines to allow paragraphs
       - JLPT N5
       - JLPT N4
-      - Japanese Language Proficiency (Equivalent to JLPT N3)
       - TOEIC (test in  Viettl High Tech) - <mark>715/990</mark>
       - Training Course on VLSI IC Design - Organized by ITI (Information Technology Institute), VNU (Vietnam National University), and NIC (National Innovation Center)
+
+  - title: Foreign Languages
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      - Japanese equivalent to <mark>N3</mark> level
+
+      - English equivalent to <mark>700</mark> TOEIC
+
+      - Chinese: Completed the curriculum for <mark>HSK Level 2</mark>
 
   - title: Activities # Title for the section
     layout: list # Type of content section (list/text)
