@@ -44,6 +44,31 @@ about_content: | # this will include new lines to allow paragraphs
   Hi, my name is Dat and I am a fourth-year student majoring in Control and Automation Engineering. With a strong passion for automation and a constant eagerness to learn, I am eager to work alongside experienced professionals in the field. During my years at university, I have gained foundational knowledge in various areas of automation, including <mark>PLCs</mark>, <mark>microcontrollers (MCUs)</mark>, <mark>artificial intelligence (AI)</mark>, and <mark>semiconductors</mark>. I am proficient in two foreign languages: <mark>Japanese</mark> and <mark>English</mark>, with a particular strength in reading and understanding technical documents in English. I have also participated in scientific research and contributed to academic publications. I am currently seeking a position that aligns with my background and passion.
 
 content:
+  - title: Work Experience # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Institute of Information Technology – Vietnam National University (ITI – VNU)
+        # link_text: boringcompany.com
+        sub_title: Member of SoC Tape-Out Project
+        caption: 05/2025 – Now
+        description: | # this will include new lines to allow paragraphs
+            - Team Leader – DLDO Block Design (Mixed-Signal)
+
+            - Leading the design of an on-chip Digital Low Drop-Out (DLDO) voltage regulator
+
+            - Participating in full SoC tape-out flow including simulation, verification, and integration
+
+      - layout: left
+        title: Teaching Assistant – Computer Architecture – USTH (University of Science and Technology of Hanoi)
+        sub_title: Freelancer
+        caption: 06/2025 - Now
+        description: | # this will include new lines to allow paragraphs
+            - Assisted in teaching undergraduate course in Computer Architecture
+
+            - Prepared English lecture slides, supported lectures, guided students through assignments, and assisted in grading
+
+
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -92,7 +117,9 @@ content:
             - Research topic: Comparison of temperature control methods for furnaces – PID, neural networks, fuzzy logic, Fuzzy-PID using Matlab/Simulink (in editing)
 
             - Research topic: Controllers for Doppler Radar using Matlab/Simulink (in editing)
-  
+
+            - Research topic: Low-Power 16-bit FFT Chip Design (in editing)
+
   - title: Skills
     layout: text
     content: | # this will include new lines to allow paragraphs
@@ -145,7 +172,7 @@ content:
           Technologies: GX Work 2, MX OPC, LabVIEW, EB8000, Mitsubishi FX-3U, HMI Weintek
 
       - layout: top-middle
-        title: Elevator Simulation with Siemens S7-1200 PLC
+        title: Design & simulations using Siemens S7-1200 PLC
         link: https://github.com/datiuemm/PLC-thangmay20tang
         link_text: Project Website
         additional_links:
@@ -155,31 +182,20 @@ content:
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         description: | # this will include new lines to allow paragraphs
-          Description: 20-floor elevator simulation with priority control.
+          Description: 20-floor elevator simulation with priority control, Water Tank and Apple Counter using Siemens S7-1200 PLC
 
           Responsibilities: Designed control program and HMI using WinCC.
 
           Technologies: TIA Portal, WinCC
 
-      - layout: top-middle
-        title: Water Tank and Apple Counter using Siemens S7-1200 PLC
-        link: https://github.com/datiuemm/dem_tao
-        link_text: Project Website
-        additional_links:
-            icon: fab fa-github
-            url: https://github.com/datiuemm/plc-bon-nuoc
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        description: | # this will include new lines to allow paragraphs
-          Description: Simulated apple counting and water tank automation.
+          Link: https://github.com/datiuemm/dem_tao
 
-          Responsibilities: Developed full control logic and HMI.
+          Link: https://github.com/datiuemm/PLC-thangmay20tang
 
-          Technologies: TIA Portal, WinCC
+          Link: https://github.com/datiuemm/plc-bon-nuoc
 
       - layout: top-middle
-        title: School Bell System using Arduino
+        title: MCUs (Arduino. STM32)
         link: https://github.com/datiuemm/arduino-chuong-bao-gio-hoc
         link_text: Project Website
         additional_links:
@@ -189,7 +205,7 @@ content:
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         description: | # this will include new lines to allow paragraphs
-          Description: Automated school bell using Arduino, DS3231, Relay, LCD.
+          Description: Automated school bell using Arduino, DS3231, Relay, LCD & Current measurement
 
           Responsibilities: Designed in Proteus, implemented real hardware, wrote UART communication.
 
@@ -212,8 +228,7 @@ content:
       - Currently studying for <mark>JLPT N2</mark>
 
       - To avoid disclosing sensitive information (phone number, profile photo, etc.), for more details, please contact via email
-
-      - I'm planning to study Chinese in the future, after completing my Japanese and English certifications
+      
 # Footer
 footer_show_references: false
 # references_title: References on request (Override references text)
